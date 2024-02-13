@@ -9,3 +9,17 @@ das
 ds
 d
 /var/lib/jenkins/workspace/Testing 
+pipeline {
+    agent any
+    
+    stages {
+        stage('Run Docker Container') {
+            steps {
+                script {
+                    // Run Docker container
+                    sh 'docker run hello-world'
+                }
+            }
+        }
+    }
+}
