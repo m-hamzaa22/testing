@@ -4,17 +4,3 @@ asdasd
 das
 ds
 d
-                script {
-                    // Run Docker container
-                    sh 'docker run hello-world'
-                }
-            }
-        }
-    }
-}
-a
-asdasd
-as
-dasasdasd
-as
-das
