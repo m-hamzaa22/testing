@@ -1,1 +1,10 @@
-https://github.com/m-hamzaa22/testing.git
+pipeline {
+    agent any
+    stages {
+        stage("Build") {
+            steps {
+                sh 'echo "hello World"'
+            }
+        }
+    }
+}
